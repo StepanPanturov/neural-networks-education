@@ -1,0 +1,62 @@
+# created by virtualenv automatically
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+.Python
+
+# PyCharm project files
+.idea/
+
+# VSCode settings
+.vscode/
+
+# Log files
+*.log
+
+# Test cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.cache
+
+# Jupyter Notebook temp files
+*.nbconvert.ipynb
+
+# Build / dist folders
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Local secrets or environment settings
+.env
+*.env
+
+
+
+# Ignore compiled binaries or C-extensions
+*.so
+
