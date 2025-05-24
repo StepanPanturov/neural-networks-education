@@ -27,7 +27,12 @@ rbfn_course_work/
 ├── main.py                           # Главный файл для запуска демонстраций
 ├── rbfn_class.py                     # Реализация класса RBFNetwork
 ├── Theory.md                         # Теоретическая база по RBFN
-└── README.md                         # Этот файл
+└── README.md                         # README файл для директории rbfn_course_work
+
+COURSE_WORK_RBFN_demo_11_02_25.ipynb  # Первая демо-версия части проекта в Google Colab от 11.02.25
+Course_Work_new_version.ipynb         # Промежуточная демо-версия части проекта в Google Colab от 24.04.25
+Course_Work_final_version_24_05_25.ipynb # Финальная версия части проекта в Google Colab от 24.05.25
+
 ```
 
 ## Описание
