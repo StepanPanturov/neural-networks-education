@@ -8,7 +8,7 @@ def generate_demo_data(n_samples=100, noise=0.1, func_type='sin'):
     Параметры:
     - n_samples: количество точек данных
     - noise: уровень шума
-    - func_type: тип функции ('sin', 'exp', 'complex')
+    - func_type: тип функции ('sin', 'exp', 'quadratic', 'complex')
 
     Возвращает:
     - X: входные данные
@@ -20,6 +20,10 @@ def generate_demo_data(n_samples=100, noise=0.1, func_type='sin'):
     elif func_type == 'exp':
         X = np.linspace(-2, 2, n_samples).reshape(-1, 1)
         y = np.exp(-X.flatten()**2) + noise * np.random.randn(n_samples)
+    elif func_type == 'quadratic':
+        # Квадратичная функция: y = ax² + bx + c
+        X = np.linspace(-3, 3, n_samples).reshape(-1, 1)
+        y = 0.5 * X.flatten()**2 - 1.5 * X.flatten() + 2 + noise * np.random.randn(n_samples)
     elif func_type == '2d':
         # 2D данные для регрессии
         from sklearn.datasets import make_friedman2

@@ -35,13 +35,13 @@ def generate_advanced_demo_data(n_samples=200, noise=0.1, func_type='multimodal'
         # 3D данные для регрессии
         from sklearn.datasets import make_friedman3
         X, y = make_friedman3(n_samples=n_samples, noise=noise, random_state=42)
-        # Ограничение до первых трех признаков для наглядности
+        # Ограничиваем до первых трех признаков для наглядности
         X = X[:, :3]
 
     elif func_type == 'noisy_peaks':
         X = np.linspace(-5, 5, n_samples).reshape(-1, 1)
         base = np.sin(X.flatten()) * np.exp(-0.1 * X.flatten()**2)
-        # Добавление случайные всплески
+        # Добавляем случайные всплески
         peaks = np.zeros(n_samples)
         for _ in range(10):  # 10 случайных всплесков
             pos = np.random.randint(0, n_samples)
