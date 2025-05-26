@@ -99,7 +99,6 @@ python main.py
 - Matplotlib
 - scikit-learn
 - Pandas
-- PyQt6 (для десктопного приложения, если используется)
 
 ## Практическое применение
 
