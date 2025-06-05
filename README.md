@@ -30,9 +30,9 @@ rbfn_course_work/
 ├── Theory.md                         # Теоретическая база по RBFN
 └── README.md                         # Этот файл
 
-COURSE_WORK_RBFN_demo_11_02_25.ipynb  # файл блокнота Google Colab с первой демо версией проекта от 11.02.25
 Course_Work_new_version_28_04_25.ipynb # файл блокнота Google Colab с промежуточной демо версией проекта от 28.04.25
 Course_Work_final_version_24_05_25.ipynb # файл блокнота Google Colab с финальной версией проекта от 24.05.25
+Testing_rbfn.ipynb # файл блокнота Google Colab с тестированием компонентов подпрограммы
 ```
 
 ## Описание
